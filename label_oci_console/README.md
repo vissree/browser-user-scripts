@@ -4,7 +4,24 @@ Add a color coded banner to the top of the console to distinguish between tenanc
 
 # Tenancies
 
-The tenancy list is maintained in the `tenancies` object. Edit the members as required. For example, to add personal tenancies.
+The tenancy list is maintained in the `tenancies` object. Edit the members as required.
+```javascript
+  const tenancies = {
+    personal: new Set(["replace_with_personal_tenancy_name"]),
+    prod: new Set([
+      "replace_with_prod_tenancy_name_1",
+      "replace_with_prod_tenancy_name_2",
+    ]),
+    stage: new Set([
+      "replace_with_stage_tenancy_name_1",
+      "replace_with_stage_tenancy_name_2"
+    ]),
+    dev: new Set([
+      "replace_with_dev_tenancy_name_1",
+      "replace_with_dev_tenancy_name_2"
+    ]),
+  };
+```
 
 # Screenshots
 
