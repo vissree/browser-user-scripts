@@ -22,7 +22,7 @@ The easiest way is to:
 Or from the script file's raw Github url:
 
 1. Copy the script file raw url<br>
-   Eg: https://raw.githubusercontent.com/vissree/browser-user-scripts/master/label\_oci\_console/label_oci_console.js
+   Eg: https://raw.githubusercontent.com/vissree/browser-user-scripts/main/label_oci_console/label_oci_console.js
 2. Tampermonkey Dashboard -> Utilities -> Install from URL
 
 ![Tampermonkey](images/tampermonkey.png)
